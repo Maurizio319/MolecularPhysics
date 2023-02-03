@@ -1,3 +1,5 @@
+\graphicspath{{chapters/01/}}
+
 \chapter{Revisiting classical mechanics}
 
 \section{Physical theories}
@@ -253,13 +255,13 @@ Defining a physical theory in classical mechanics corresponds to specifying what
   It can be noted that from $H(p,q)$ it is possible to retrieve Newton's equations of motion, solve them and obtain predictions to compare with experimental results following:
 
   \begin{multicols}{2}
-    \begin{itemize}
+    \begin{enumerate}
         \item Define H.
         \item Compute equation of motion.
         \item Solve equation of motion.
         \item Use solution to obtain predictions of experimentally observable quantities.
         \item Experimentally test the prediction.
-    \end{itemize}
+    \end{enumerate}
   \end{multicols}
 
   This procedure is repeated until concordance with experiments is reached.
@@ -284,6 +286,16 @@ Defining a physical theory in classical mechanics corresponds to specifying what
     \dot{\Gamma}_1 = +\frac{\partial {H}}{\partial {\Gamma_2}}\\
     \dot{\Gamma}_2 = +\frac{\partial {H}}{\partial {\Gamma_1}}
   \end{cases}$$
+
+  % To add definitions, remember to put in the prefix
+  % the command \newtheorem{definition}{Definition}
+  \begin{definition}
+    \textbf{Phase space:}
+    In dynamical system theory, a phase space is a space in which all possible
+    states of a system are represented, with each possible state corresponding
+    to one unique point in the phase space. For mechanical systems, the phase
+    space usually consists of all possible values of position and momentum variables.
+  \end{definition}
 
   For many particles in three dimensions:
 

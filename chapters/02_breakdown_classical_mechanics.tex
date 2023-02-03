@@ -55,16 +55,18 @@
         \paragraph{Results}
         When the wave arrives, it reaches different locations at the same time (delocalization), very differently from bullets.
         A second difference is what we obtain when we let waves pass through both holes.
-        The obtained pattern has alternating minima and maxima and it can be seen that $P_{12} \neq P_1+P_2$.
+        The obtained pattern has alternating minima and maxima and it can be
+        seen that $P_{12} \neq P_1+P_2$. Consider the $P$s as the intensities of
+        the waves, and $A$ as the amplitudes.
         In this case we obtain an \textbf{interference pattern}, as waves can sum and subtract in a non-trivial way (waves are complex objects).
         So, deriving from wave theory:
 
-        $$A_1\rightarrow P_1 = |A_1|^2 = A_1^*A_1$$
+        $$P_1 = |A_1|^2 = A_1^*A_1$$
 
-        $$A_2\rightarrow P_2 = |A_2|^2 = A_2^*A_2$$
+        $$P_2 = |A_2|^2 = A_2^*A_2$$
 
         \begin{align*}
-          A_{12} = A_1+A_2\rightarrow A_{12} &= |A_1+A_2|^2=\\
+          A_{12} = A_1+A_2\rightarrow P_{12} &= |A_1+A_2|^2=\\
                                             &=A_1^*A_1 + A_2^*A_2 + \underbrace{A_1^*A_2 + A_1A_2^*}_{\text{interference}}
         \end{align*}
 
@@ -130,7 +132,10 @@ It would be expected that, irregardless of the frequency or wave-length, the amo
 
   \subsection{Experimental findings}
   Electrons are extracted only if the light has a $\nu > \nu_{\min}$ or $\lambda<\lambda_{\max}$.
-  If $\nu>\nu_{\min}$, the amount of electrons scales with the intensity.
+  If $\nu>\nu_{\min}$, the amount of electrons scales with the intensity. Also,
+  the velocity of those electrons, extracted, would depend on the difference
+  between $\nu - \nu_{min}$.
+  
 \begin{figure}[h!]
     \centering
     \includegraphics[clip, width=0.6\textwidth]{photoelectric.png}
@@ -145,7 +150,7 @@ It would be expected that, irregardless of the frequency or wave-length, the amo
     The amount of energy transfer to a bound system cannot be arbitrary small.
 
     \subsubsection{Photons}
-    Light is made by the photon particle which carries energy $E = \hbar\nu$, where $\omega = 2\pi\nu$ and $\hbar = \frac{h}{2\pi}$, so:
+    Light is made by the photon particle which carries energy $E = h\nu$, where $\omega = 2\pi\nu$ and $\hbar = \frac{h}{2\pi}$, so:
 
     $$E = \hbar\omega$$
 
@@ -182,6 +187,15 @@ It would be expected that, irregardless of the frequency or wave-length, the amo
 
 
   \subsection{Finding}
+
+  \begin{figure}[ht]
+    \caption{Stern Gerlach experiment}
+    \centering
+    \includegraphics[width=0.6\textwidth]{sterngerlach.PNG}
+    \label{fig: }
+  \end{figure}
+
+
   Classically, the electrons are expected to be bended by $SG$ more or less depending on the orientation of $\vec{\mu}$, with an expected density shaped like a Gaussian with $\mu$ at the middle.
   Since $\hat{z}$ has been selected by $SG_1$, $SG_3$, it would be expected to find only $\mu_z = + \mu_0$. Instead, the final beam contains $\mu_z =\pm \mu_0$.
   In real experiments what we see are two narrow peaks; the position of the peaks is compatible with a scenario in which all particles are completely aligned or completely anti-aligned with the z-axis.
